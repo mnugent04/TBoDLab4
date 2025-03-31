@@ -14,7 +14,7 @@ app = Dash(
 )
 
 #  make dataframe from  spreadsheet:
-df = pd.read_csv("../Plotly-Dash-master/Chapter-6/assets/historic.csv")
+df = pd.read_csv("assets/historic.csv")
 
 MAX_YR = df.Year.max()
 MIN_YR = df.Year.min()
